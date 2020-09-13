@@ -21,3 +21,7 @@ Route::get('/', function () {
 Route::get('/tuanvu',function(){
     return view('welcome');
 });
+
+Route::get('/yeulinhtam',function(){
+    return view('welcome');
+});
