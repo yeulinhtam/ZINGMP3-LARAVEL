@@ -1,0 +1,49 @@
+
+.autocomplete-suggestions {
+    border-radius: 10px !important;
+    background: #281944;
+    overflow: auto;
+    top: 70px !important;
+}
+.autocomplete-suggestion {
+    padding: 5px 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+    cursor: pointer;
+}
+
+.autocomplete-selected {
+    opacity: 1;
+    background-color: rgba(255,255,255,.1);
+    transition: transform .3s;
+}
+
+/*.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }*/
+.autocomplete-group {
+    padding: 5px 10px;
+}
+.autocomplete-group strong{
+    display: block;
+    border-bottom: 1px solid #000;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+

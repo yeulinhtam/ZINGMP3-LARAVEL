@@ -1,0 +1,109 @@
+.list-album-wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+.list-album-row-title a{
+    text-decoration: none;
+}
+
+.list-album-row-title span{
+    margin-left: 10px;
+    font-weight: 200;
+    display: flex;
+    align-items:center;
+}
+
+.list-album-row-title h3{
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.list-album-row-title a:hover{
+    text-decoration: none;
+}
+
+.list-album-row-title h3:hover > .fa-chevron-right{
+    color:#785cca;
+}
+
+.list-album-row-title h3:hover{
+    color: #785cca;
+}
+
+
+.album-row-content__cards{
+    padding: 0px;
+    list-style-type: none;
+    transform: translate(0px, 0px);
+    transition: all 500ms ease 0s;
+    border-collapse: collapse;
+}
+
+.album-row-content__card{
+    margin-right: 12.5px;
+    height: 280px;
+    margin-bottom: 10px;
+    max-width: 210px;
+}
+
+
+
+.album-row-content__card .card-image{
+    width: 210px;
+    height: 210px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.album-row-content__card a:hover{
+    text-decoration: none;
+}
+
+
+.album-row-content__card .card-image > img{
+    transition: transform .5s;
+    width: 100%;
+    height: 100%;
+}
+
+.album-row-content__card .card-image > img:hover{
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+
+.album-row-content__card .card-title > p{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.album-row-content__card .card-title >p:hover{
+    color: #785cca;
+}
+
+
+.list-album-more{
+    width: 100px;
+    margin: 0 auto;
+}
+.list-album-more span{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.list-album-more a:hover{
+    text-decoration: none;
+}
+.list-album-more span:hover{
+    color: #785cca;
+}
